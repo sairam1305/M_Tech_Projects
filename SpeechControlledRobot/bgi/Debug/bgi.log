@@ -1,0 +1,73 @@
+﻿Build started 12/2/2017 5:19:56 AM.
+     1>Project "E:\1st sem\SpeechControlledRobot_174101020_174101014_174101030_174101005\bgi\bgi.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\bgi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bgiout.cxx dibutil.cxx drawing.cxx file.cxx HMM.cpp misc.cxx mouse.cxx palette.cxx main.cxx text.cxx winbgi.cxx winthread.cxx
+         winthread.cxx
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\winthread.cxx(320): warning C4101: 'i' : unreferenced local variable
+         winbgi.cxx
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\winbgi.cxx(81): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\winbgi.cxx(134): warning C4101: 'actual_color' : unreferenced local variable
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\winbgi.cxx(133): warning C4101: 'bgi_color' : unreferenced local variable
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\winbgi.cxx(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         text.cxx
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\text.cxx(348): warning C4018: '<' : signed/unsigned mismatch
+         main.cxx
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(189): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(189): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(192): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(192): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(333): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(367): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(388): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\main.cxx(397): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         palette.cxx
+         mouse.cxx
+         misc.cxx
+         HMM.cpp
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\hmm.cpp(18): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(194) : see previous definition of 'min'
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\hmm.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\hmm.cpp(127): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\hmm.cpp(464): warning C4018: '<' : signed/unsigned mismatch
+         file.cxx
+         drawing.cxx
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\drawing.cxx(819): warning C4101: 'tries' : unreferenced local variable
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\drawing.cxx(859): warning C4101: 'answer' : unreferenced local variable
+     1>e:\1st sem\speechcontrolledrobot_174101020_174101014_174101030_174101005\bgi\drawing.cxx(1110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         dibutil.cxx
+         bgiout.cxx
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\1st sem\SpeechControlledRobot_174101020_174101014_174101030_174101005\bgi\Debug\bgi.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\bgi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\1st sem\SpeechControlledRobot_174101020_174101014_174101030_174101005\bgi\Debug\bgi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\1st sem\SpeechControlledRobot_174101020_174101014_174101030_174101005\bgi\Debug\bgi.lib" /MACHINE:X86 Debug\bgiout.obj
+         Debug\dibutil.obj
+         Debug\drawing.obj
+         Debug\file.obj
+         Debug\HMM.obj
+         Debug\misc.obj
+         Debug\mouse.obj
+         Debug\palette.obj
+         Debug\main.obj
+         Debug\text.obj
+         Debug\winbgi.obj
+         Debug\winthread.obj
+         LINK : E:\1st sem\SpeechControlledRobot_174101020_174101014_174101030_174101005\bgi\Debug\bgi.exe not found or not built by the last incremental link; performing full link
+     1>LINK : warning LNK4031: no subsystem specified; CONSOLE assumed
+         bgi.vcxproj -> E:\1st sem\SpeechControlledRobot_174101020_174101014_174101030_174101005\bgi\Debug\bgi.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\1st sem\SpeechControlledRobot_174101020_174101014_174101030_174101005\bgi\Debug\bgi.exe;#1" /manifest Debug\bgi.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\bgi.unsuccessfulbuild".
+         Touching "Debug\bgi.lastbuildstate".
+     1>Done Building Project "E:\1st sem\SpeechControlledRobot_174101020_174101014_174101030_174101005\bgi\bgi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.94
